@@ -1,0 +1,100 @@
+/*
+--------------------------------------------------------------------
+Base Style
+--------------------------------------------------------------------
+*/
+
+body {
+    background-color: #f4e1d1; 
+
+}
+
+p {
+    font-size: 20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  }
+
+.highlighted-text {
+    color: rgb(150, 50, 127); 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: whitesmoke; 
+    padding: 1em;
+}
+
+img {
+    display: block; 
+    max-width: 100%;
+    width: 50%; 
+    margin: auto; 
+    padding: 1em; 
+    border: 1px solid black; 
+    box-sizing: border-box; 
+    /*
+    margin: 1em;
+    */
+}
+
+h1 {
+    font-size: 50px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+--------------------------------------------------------------------
+Nav Style
+--------------------------------------------------------------------
+*/
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid black; 
+    padding: 1em; 
+    position: fixed; 
+    top: 0; 
+    left: 0;  
+    width: 300px; 
+
+    ol{
+        list-style: none; 
+        margin: 0; 
+
+        ol {
+            padding-left: 20px;
+        }
+    }
+
+    li{
+        padding: 5px; 
+    }
+
+    li::marker{
+        color: red; 
+    }
+
+    a{
+        display: block; 
+        text-decoration: none; 
+    }
+}
+
+
+main {
+    margin-left: 350px;
+    padding: 1em;
+    /* 
+    background-color: lightblue; 
+    */
+}
+
+
+  

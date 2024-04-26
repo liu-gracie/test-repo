@@ -3,10 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Document</title> 
+    <link rel="stylesheet" href="css/styles.css"> 
+    <style>
+      p {
+        font-size: 20px; 
+        font-family: sans-serif; 
+        /* color: blue !important;  */
+      }
+
+      .highlighted-text {
+        color: rgb(150, 100, 50); 
+        width: 50%; 
+      }
+    </style>
   </head>
 
-  <body>
+  <body> 
+    <nav class="navigation">
+      <ol class="navigation_primary">
+        <li><a class="navigation_link" href="what-is-a-website">What is a website?</a></li>
+        <li><a class="navigation_link" href="why-have-a-website">Why have a website?</a></li>
+        <li><a class="navigation_link" href="what-can-a-website-be">What can a website be?</a></li>
+        <ol class="navigation_secondary"> 
+          <li><a class="navigation_link" href="website-as-room">Website as room</li>
+          <li><a class="navigation_link" href="website-as-shelf">Website as shelf</li>
+          <li><a class="navigation_link" href="website-as-plant">Website as plant</li>
+          <li><a class="navigation_link" href="website-as-garden">Website as garden</li>
+            <li><a class="navigation_link" href="website-as-puddle">Website as puddle</li>
+          <li><a class="navigation_link" href="website-as-rock">Website as thrown rock that’s now falling deep into the ocean</li>
+        </ol>
+        <li><a class="navigation_link" href="the-web-is-what-we-make-it">The web is what we make it</a></li>
+      </ol>
+    </nav>
+
+    <main>
     <h1>
       My website is a shifting house next to a river of knowledge. What could
       yours be?
@@ -18,24 +49,24 @@
     </h3>
 
     <section>
-      <h2>What is a website?</h2>
-      <p>
+      <h2 id="what-is-a-website">"What is a website?</h2>
+      <p style="color: darkolivegreen;"> 
         For the past handful of years, I’ve been teaching courses about
         interactive design and the internet.
       </p>
 
-      <p>
+      <p class="highlighted-text"> 
         I teach within art departments at universities, so we learn about the
         internet’s impact on art—and vice versa—and how technological advance
         often coincides with artistic development.
       </p>
 
-      <p>
+      <p class="highlighted-text"> 
         In class, we make websites. To do this, we learn the elemental markup
         and code languages of the web—HTML, CSS, and some JavaScript.
       </p>
 
-      <p>
+      <p style="color: slateblue;" class="highlighted-text"> 
         However, sometimes after the semester is over, I receive perplexing
         emails from students asking, “So how do I actually make a website?”
       </p>
@@ -110,7 +141,7 @@
     </section>
 
     <section>
-      <h2>Why have a website?</h2>
+      <h2 id="why-have-a-website">Why have a website?</h2>
       <p>
         Today more than ever, we need individuals rather than corporations to
         guide the web’s future. The web is called the web because its vitality
@@ -157,9 +188,9 @@
     </section>
 
     <section>
-      <h2>What can a website be?</h2>
+      <h2 id="what-can-a-website-be">What can a website be?</h2>
 
-      <h3>Website as room</h3>
+      <h3 id="website-as-room">Website as room</h3>
 
       <p>
         In an age of information overload, a room is comforting because it’s
@@ -192,7 +223,7 @@
 
       <img src="../images/image2.jpeg" alt="image2" />
 
-      <h3>Website as shelf</h3>
+      <h3 id="website-as-shelf">Website as shelf</h3>
 
       <p>
         Zooming into this room inside this house, we see a shelf. Maybe a shelf
@@ -205,7 +236,7 @@
         little shelf.
       </p>
 
-      <h3>Website as plant</h3>
+      <h3 id="website-as-plant">Website as plant</h3>
 
       <p>
         Plants can’t be rushed. They grow on their own. Your website can be the
@@ -223,7 +254,7 @@
 
       <img src="../images/image3.png" alt="image3" />
 
-      <h3>Website as garden</h3>
+      <h3 id="website-as-garden">Website as garden</h3>
 
       <p>
         Fred Rogers said you can grow ideas in the garden of your mind.
@@ -245,7 +276,7 @@
 
       <img src="../images/image4.png" alt="image4" />
 
-      <h3>Website as puddle</h3>
+      <h3 id="website-as-puddle">Website as puddle</h3>
 
       <p>
         A website could also be a puddle. A puddle is a temporary collection of
@@ -274,7 +305,7 @@
         love to see a website evaporate slowly, too.
       </p>
 
-      <h3>Website as thrown rock that’s now falling deep into the ocean</h3>
+      <h3 id="website-as-rock">Website as thrown rock that’s now falling deep into the ocean</h3>
 
       <p>
         Sometimes you don’t want a website that you’ll have to maintain. You
@@ -294,7 +325,7 @@
     </section>
 
     <section>
-      <h2>The web is what we make it</h2>
+      <h2 id="the-web-is-what-we-make-it">The web is what we make it</h2>
 
       <p>
         While an individual website could be any of those metaphors I mentioned
@@ -356,5 +387,6 @@
         web, for a website is an individual act of collective ambition.
       </p>
     </section>
+  </main>
   </body>
 </html>
