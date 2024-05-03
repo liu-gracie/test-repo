@@ -1,0 +1,117 @@
+/*
+--------------------------------------------------------------------
+Base Style
+--------------------------------------------------------------------
+*/
+
+body {
+    background-color: violet; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace; 
+    width: 33em;
+    text-align: justify; 
+    padding: 10px;
+}
+
+h3 {
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace; 
+    letter-spacing: 1em; 
+    text-align: center;
+    padding: 50px;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace; 
+    margin-left: -300px;
+}
+
+a:link {
+    color: #ee84ff; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ee84ff; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ee84ff; 
+    text-decoration: none;
+}
+
+/*
+--------------------------------------------------------------------
+Nav Style
+--------------------------------------------------------------------
+*/
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px; 
+    position: fixed; 
+    bottom: 0; 
+
+    li{
+        display: inline-block;
+        padding: 5px; 
+    }
+
+    a{
+        display: block; 
+        text-decoration: none; 
+    }
+
+    a:link {
+        color: black; 
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: black; 
+        text-decoration: none;
+    }
+
+    .red:hover{
+        color: red; 
+    }
+
+    .orange:hover{
+        color: orange; 
+    }
+
+    .yellow:hover{
+        color: yellow; 
+    }
+
+    .green:hover{
+        color: green; 
+    }
+
+    .cyan:hover{
+        color: cyan; 
+    }
+
+    .blue:hover{
+        color: blue; 
+    }
+
+    .violet:hover{
+        color: whitesmoke; 
+    }
+}
+
+
+
+main {
+    padding: 1em;
+}
+
+
+  

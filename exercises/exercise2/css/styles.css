@@ -5,7 +5,7 @@ Base Style
 */
 
 body {
-    background-color: #f4e1d1; 
+    background-color: whitesmoke; 
 
 }
 
@@ -17,7 +17,7 @@ p {
 .highlighted-text {
     color: rgb(150, 50, 127); 
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    background-color: whitesmoke; 
+    background-color: lightgray; 
     padding: 1em;
 }
 
